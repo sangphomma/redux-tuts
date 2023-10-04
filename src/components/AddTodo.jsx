@@ -12,7 +12,7 @@ const AddTodo = () => {
   };
 
   return (
-    <div className="container p-3 flex flex-col">
+    <div className="container p-1 flex flex-col w-full">
       <form onSubmit={addTodoHandler}>
         <div className="p-2">
           <input
